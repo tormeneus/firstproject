@@ -1,4 +1,4 @@
-import './App.css';
+
 import CounterApp from './CounterApp';
 
 const App = () => {
