@@ -12,10 +12,10 @@ const CounterApp = () => {
   return (
     <div className="App">
       <div className="centerpage">
-        <button className = 'button' onClick = {increment}>Press me for +1</button>
-        <h1>{counter}</h1>
-        <button className = 'button' onClick = {decrement}>Press me for -1</button>
-        <p><button className = 'button' onClick = {() => setCounter (0)}>Reset</button></p>
+        <button className = 'button' name="increment" onClick = {increment}>Press me for +1</button>
+        <div name='count'><h1>{counter}</h1></div>
+        <button className = 'button' name="decrement" onClick = {decrement}>Press me for -1</button>
+        <p><button className = 'button' name='reset' onClick = {() => setCounter (0)}>Reset</button></p>
       </div>
     </div>
   )
