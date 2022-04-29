@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react';
 
 const CounterApp = () => {
@@ -8,6 +8,10 @@ const CounterApp = () => {
   const increment = () => setCounter (counter + 1);
 
   const decrement = () => setCounter (counter - 1);
+
+  useEffect(() => {
+    document.title = `Count: ${counter}`
+  });
   
   return (
     <div className="App">
