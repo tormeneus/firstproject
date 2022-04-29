@@ -18,7 +18,7 @@ Main files are in the `src` folder.
 
 To run tests you need to have Selenium browser drivers installed.
 
-Please read the instruction on how to [Install Selinium browser drivers](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/).
+Please read the instruction on how to [Install Selinium browser drivers](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/) if you don't have them.
 
 To run tests type `node test` in the console while the server is running (`npm start` command).
 
